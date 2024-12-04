@@ -6,7 +6,7 @@ Exercise 1: Define an empty array
 Exercise 1 has been completed for you:
 */
 
-const foods = [];  
+const foods = [];
 
 console.log('Exercise 1 result:', foods);
 
@@ -71,7 +71,7 @@ Exercise 6: Replace elements
 Complete Exercise 6 in the space below:
 */
 
-foods.splice(1, 1, 'sushi' , 'cupcake')
+foods.splice(1, 1, 'sushi', 'cupcake')
 
 
 console.log('Exercise 6 result:', foods);
@@ -155,7 +155,7 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 const odds = []
 
-nums.forEach(num => (num % 2 !== 0) ? odds.push(num): null);
+nums.forEach(num => (num % 2 !== 0) ? odds.push(num) : null);
 
 console.log('Exercise 11 result:', odds);
 
@@ -186,7 +186,7 @@ for (const num of nums) {
     if (num % 3 === 0) fizz.push(num)
     if (num % 5 === 0) buzz.push(num)
     if (num % 5 === 0 && num % 3 === 0) fizzbuzz.push(num)
-} 
+}
 
 
 console.log('Exercise 12 Results:');
@@ -206,11 +206,11 @@ Exercise 13: Retrieve the Last Array
 Complete Exercise 13 in the space below:
 */
 
-const numArrays = [ 
-	[100, 5, 23],
-	[15, 21, 72, 9],
-	[45, 66],
-	[7, 81, 90]
+const numArrays = [
+    [100, 5, 23],
+    [15, 21, 72, 9],
+    [45, 66],
+    [7, 81, 90]
 ];
 
 const numList = numArrays.slice(-1)
